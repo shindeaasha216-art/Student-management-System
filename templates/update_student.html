@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Update Student</title>
+        <link rel="stylesheet"
+        href="{{url_for('static',filename='style.css')}}">
+    </head>
+    <body>
+        <h1>Update Student</h1>
+        <form method="POST">
+            <input type="number" name="id" placeholder="Enter Student ID" required><br><br>
+            <input type="number" name="age" placeholder="Enter New age" required><br><br>
+            <input type="text" name="city" placeholder="Enter new city" required><br><br>
+            <button type="submit">Update</button>
+        </form>
+        <br>
+        <a href="{{url_for('index')}}">Back</a>
+    </body>
+    </html>

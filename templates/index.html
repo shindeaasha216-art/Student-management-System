@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Management System</title>
+        <link rel="stylesheet"
+              href="{{url_for('static',filename='style.css')}}">
+    </head>
+    <body>
+        <h1>Student Management System</h1>
+        <a href="{{url_for('add_student')}}">Add Student</a><br><br>
+        <a href="{{url_for('view_students')}}">View Student</a><br><br>
+        <a href="{{url_for('update_student')}}">Update Student</a><br><br>
+        <a href="{{url_for('delete_student')}}">Delete Student</a><br><br>
+        <a href="{{url_for('exit_page')}}">Exit</a>
+    </body>
+</html>    
